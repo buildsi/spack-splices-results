@@ -24,6 +24,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           python get_artifacts.py
+          /bin/bash generate.sh
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
           
           git config --global user.name "github-actions"
@@ -31,6 +32,7 @@ jobs:
           git fetch
           git checkout main
           git add artifacts/*
+          git add docs/_results*
 
           git commit -a -m "Automated push with new artifact results $(date '+%Y-%m-%d')" || exit 0
           git push origin main || echo "No new results"
