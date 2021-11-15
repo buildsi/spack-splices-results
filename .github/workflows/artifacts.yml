@@ -1,0 +1,37 @@
+name: "Pull Result Artifacts"
+
+on:
+  dispatch_event: []
+  schedule:
+    # Every night at midnight
+    - cron:  0 0 * * *
+
+jobs:
+  find-artifacts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Make artifact directory
+        run: mkdir -p ./artifacts
+      - name: Get Artifacts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_REPOSITORY: "buildsi/spack-splices" 
+
+          # Check for the last 2 days
+          INPUT_DAYS: 2
+        run: |
+          pip install -r requirements.txt
+          python get_artifacts.py
+          printf "GitHub Actor: ${GITHUB_ACTOR}\n"
+          
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@users.noreply.github.com"
+          git fetch
+          git checkout main
+          git add artifacts/*
+
+          git commit -a -m "Automated push with new artifact results $(date '+%Y-%m-%d')" || exit 0
+          git push origin main || echo "No new results"
+  
