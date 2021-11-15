@@ -21,5 +21,11 @@ $ export INPUT_REPOSITORY=buildsi/spack-splices
 $ python get_artifacts.py
 ```
 
+To then visualize a package results folder:
+
+```bash
+$ python visualize-predictions.py artifacts/curl
+```
+
 Please [open an issue](https://github.com/buildsi/spack-splices-results/issues)
 if you have a question or point of discussion. 

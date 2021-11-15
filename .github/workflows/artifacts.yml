@@ -1,7 +1,7 @@
 name: "Pull Result Artifacts"
 
 on:
-  dispatch_event: []
+  workflow_dispatch: []
   schedule:
     # Every night at midnight
     - cron:  0 0 * * *

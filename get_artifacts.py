@@ -222,7 +222,7 @@ def download_artifacts(artifacts, output, days):
             relpath = filename.replace(tmp, "").strip(os.sep)
 
             # Let's split the package name and version as part of the path
-            pkg, version = os.path.basename(filename).split('-')[0:2]
+            pkg, version = os.path.basename(filename).split("-")[0:2]
             finalpath = os.path.join(output, pkg, version, os.path.basename(filename))
 
             # If the file doesn't have size, don't add
