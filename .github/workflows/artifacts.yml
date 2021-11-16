@@ -2,7 +2,11 @@ name: "Pull Result Artifacts"
 
 on:
   workflow_dispatch:
-    inputs: []
+    inputs:
+      package:
+        description: 'Package result to process under artifacts'
+        default: ""
+
   schedule:
     # Every night at midnight
     - cron:  0 0 * * *
@@ -19,6 +23,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INPUT_REPOSITORY: "buildsi/spack-splices" 
+          INPUT_PACKAGE: ${{ github.events.input.package || "" }}
 
           # Check for the last 2 days
           INPUT_DAYS: 2
