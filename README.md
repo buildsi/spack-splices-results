@@ -13,7 +13,7 @@ the script [get_artifacts.py](get_artifacts.py) nightly to do the following:
 
 ## Usage
 
-While this is a nightly job, you can also trigger it via dispath, or run locally:
+While this is a nightly job, you can also trigger it via dispatch, or run locally:
 
 ```bash
 $ export GITHUB_TOKEN=xxxxxxxxxxxxxx
