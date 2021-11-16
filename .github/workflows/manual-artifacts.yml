@@ -5,7 +5,7 @@ on:
     inputs:
       package:
         description: 'Package result to process under artifacts'
-        default: ""
+        required: true
 
 jobs:
   find-artifacts:
@@ -19,7 +19,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INPUT_REPOSITORY: "buildsi/spack-splices" 
-          INPUT_PACKAGE: ${{ github.events.input.package }}
+          INPUT_PACKAGE: ${{ github.event.inputs.package }}
 
           # Check for the last 2 days
           INPUT_DAYS: 2
