@@ -1,4 +1,4 @@
-name: "Pull Result Artifacts"
+name: "Manual Pull Result Artifacts"
 
 on:
   workflow_dispatch:
