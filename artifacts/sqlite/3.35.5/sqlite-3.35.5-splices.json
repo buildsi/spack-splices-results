@@ -1,0 +1,82 @@
+[
+    {
+        "spec": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specA": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specB": "zlib@1.2.11",
+        "binaries": [
+            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-xbe6cbeol35oqiithjkhi24t5ap5l2ej/bin/sqlite3"
+        ],
+        "libs": [
+            {
+                "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "paths": [
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                ]
+            }
+        ],
+        "predictions": {
+            "symbolator": {
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-xbe6cbeol35oqiithjkhi24t5ap5l2ej/bin/sqlite3": {
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11": true
+                }
+            },
+            "libabigail": {
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-xbe6cbeol35oqiithjkhi24t5ap5l2ej/bin/sqlite3": {
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11": true
+                }
+            }
+        },
+        "corpora": [],
+        "actual": true,
+        "command": "sqlite3 -version"
+    },
+    {
+        "spec": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specA": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specB": "zlib@1.2.8",
+        "binaries": [
+            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-joxxl4m64xcv4lerdjzpoustu37pkzbz/bin/sqlite3"
+        ],
+        "libs": [
+            {
+                "dep": "zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "paths": [
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8"
+                ]
+            }
+        ],
+        "predictions": {
+            "symbolator": {
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-joxxl4m64xcv4lerdjzpoustu37pkzbz/bin/sqlite3": {
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8": true
+                }
+            },
+            "libabigail": {
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-joxxl4m64xcv4lerdjzpoustu37pkzbz/bin/sqlite3": {
+                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8": true
+                }
+            }
+        },
+        "corpora": [],
+        "actual": true,
+        "command": "sqlite3 -version"
+    },
+    {
+        "spec": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specA": "sqlite@3.35.5%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "specB": "zlib@1.2.3",
+        "binaries": [
+            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/sqlite-3.35.5-73o4p3ifjiwizuszzbhfy6ib3ydi4nde/bin/sqlite3"
+        ],
+        "libs": [
+            {
+                "dep": "zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "paths": []
+            }
+        ],
+        "predictions": {},
+        "corpora": [],
+        "actual": true,
+        "command": "sqlite3 -version"
+    }
+]
