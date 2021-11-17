@@ -125,6 +125,12 @@ today = datetime.now()
 REPO_URL = "%s/repos/%s" % (BASE, get_envar("INPUT_REPOSITORY"))
 ARTIFACTS_URL = "%s/actions/artifacts" % REPO_URL
 
+# If we have a run ID in the environment, scope to that
+RUN_ID = os.environ.get("INPUT_RUNID")
+if RUN_ID:
+    ARTIFACTS_URL = "%s/actions/runs/%s/artifacts" % (REPO_URL, RUN_ID)
+print(ARTIFACTS_URL)
+
 
 def get_artifacts(repository, days=2):
     """
