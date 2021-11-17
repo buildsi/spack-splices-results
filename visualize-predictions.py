@@ -108,10 +108,9 @@ def main(pkg_dir):
                 if commands and datum["command"] not in commands:
                     print("Warning: multiple commands being used for testing!")
                 commands.add(datum["command"])
-
-                dfs["actual"].loc[binary][lib] = 1 if datum["actual"] else -1
                 for tester, res in datum["predictions"].items():
                     for binary, predictions in res.items():
+                        dfs["actual"].loc[binary][lib] = 1 if datum["actual"] else -1
                         for lib, prediction in predictions.items():
                             prediction = 1 if prediction else -1
                             dfs[tester].loc[binary][lib] = prediction
@@ -125,7 +124,11 @@ def main(pkg_dir):
 
     # Save the data frame to file
     count = 0
+    splice = None
     for tester, df in dfs.items():
+        if df.shape[0] == 0:
+            print("Warning, df for %s is empty." % tester)
+            continue
 
         # Update listing
         if count == 0:
@@ -156,17 +159,18 @@ def main(pkg_dir):
         count += 1
 
     # Generate a markdown for each
-    content = template % (
-        package,
-        package,
-        listing,
-        splice,
-        package,
-        "\n".join(list(commands)),
-    )
-    md = os.path.join(result_dir, "index.md")
-    with open(md, "w") as fd:
-        fd.write(content)
+    if splice:
+        content = template % (
+            package,
+            package,
+            listing,
+            splice,
+            package,
+            "\n".join(list(commands)),
+        )
+        md = os.path.join(result_dir, "index.md")
+        with open(md, "w") as fd:
+            fd.write(content)
 
 
 if __name__ == "__main__":
