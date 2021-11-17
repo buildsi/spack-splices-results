@@ -1,28 +1,28 @@
 [
     {
-        "spec": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
-        "specA": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "spec": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
+        "specA": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
         "specB": "zlib@1.2.11",
         "binaries": [
-            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-aduangp7jp4oyu7z3hwqytxecu5gtzw3/bin/curl"
+            "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-gb5dn3cvzr65a633y7fune3alvrooz6f/bin/curl"
         ],
         "libs": [
             {
-                "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "dep": "zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
                 "paths": [
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.11-owbi74rknkpaxlwpgbgokhgk75yt2poj/lib/libz.so.1.2.11"
                 ]
             }
         ],
         "predictions": {
             "symbolator": {
-                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-aduangp7jp4oyu7z3hwqytxecu5gtzw3/bin/curl": {
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11": true
+                "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-gb5dn3cvzr65a633y7fune3alvrooz6f/bin/curl": {
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.11-owbi74rknkpaxlwpgbgokhgk75yt2poj/lib/libz.so.1.2.11": true
                 }
             },
             "libabigail": {
-                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-aduangp7jp4oyu7z3hwqytxecu5gtzw3/bin/curl": {
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11": true
+                "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-gb5dn3cvzr65a633y7fune3alvrooz6f/bin/curl": {
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.11-owbi74rknkpaxlwpgbgokhgk75yt2poj/lib/libz.so.1.2.11": true
                 }
             }
         },
@@ -31,29 +31,29 @@
         "command": "curl --head https://linuxize.com/"
     },
     {
-        "spec": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
-        "specA": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "spec": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.8%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
+        "specA": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
         "specB": "zlib@1.2.8",
         "binaries": [
-            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-eczrgudwpqyv3ho7wrg6frnejk6gyre3/bin/curl"
+            "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-haiazseqrzpvxqcygblwx3mb53775ych/bin/curl"
         ],
         "libs": [
             {
-                "dep": "zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "dep": "zlib@1.2.8%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
                 "paths": [
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8"
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.8-2p66aua2qlpdqe2ohifu3snptbn6a5ks/lib/libz.so.1.2.8"
                 ]
             }
         ],
         "predictions": {
             "symbolator": {
-                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-eczrgudwpqyv3ho7wrg6frnejk6gyre3/bin/curl": {
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8": true
+                "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-haiazseqrzpvxqcygblwx3mb53775ych/bin/curl": {
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.8-2p66aua2qlpdqe2ohifu3snptbn6a5ks/lib/libz.so.1.2.8": true
                 }
             },
             "libabigail": {
-                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-eczrgudwpqyv3ho7wrg6frnejk6gyre3/bin/curl": {
-                    "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8": true
+                "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-haiazseqrzpvxqcygblwx3mb53775ych/bin/curl": {
+                    "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/zlib-1.2.8-2p66aua2qlpdqe2ohifu3snptbn6a5ks/lib/libz.so.1.2.8": true
                 }
             }
         },
@@ -62,15 +62,15 @@
         "command": "curl --head https://linuxize.com/"
     },
     {
-        "spec": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
-        "specA": "curl@7.50.3%gcc@9.3.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu20.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@9.3.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-x86_64_v4 ^bzip2@1.0.8%gcc@9.3.0~debug~pic+shared arch=linux-ubuntu20.04-x86_64_v4 ^diffutils@3.8%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^gdbm@1.19%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^libiconv@1.16%gcc@9.3.0 libs=shared,static arch=linux-ubuntu20.04-x86_64_v4 ^ncurses@6.2%gcc@9.3.0~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64_v4 ^openssl@1.1.1l%gcc@9.3.0~docs certs=system arch=linux-ubuntu20.04-x86_64_v4 ^perl@5.34.0%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-x86_64_v4 ^pkgconf@1.8.0%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^readline@8.1%gcc@9.3.0 arch=linux-ubuntu20.04-x86_64_v4 ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+        "spec": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.3%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
+        "specA": "curl@7.50.3%gcc@7.5.0~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 tls=openssl arch=linux-ubuntu18.04-x86_64_v4 ^berkeley-db@18.1.40%gcc@7.5.0+cxx~docs+stl patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu18.04-x86_64_v4 ^bzip2@1.0.8%gcc@7.5.0~debug~pic+shared arch=linux-ubuntu18.04-x86_64_v4 ^diffutils@3.8%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^gdbm@1.19%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^libiconv@1.16%gcc@7.5.0 libs=shared,static arch=linux-ubuntu18.04-x86_64_v4 ^ncurses@6.2%gcc@7.5.0~symlinks+termlib abi=none arch=linux-ubuntu18.04-x86_64_v4 ^openssl@1.1.1l%gcc@7.5.0~docs certs=system arch=linux-ubuntu18.04-x86_64_v4 ^perl@5.34.0%gcc@7.5.0+cpanm+shared+threads arch=linux-ubuntu18.04-x86_64_v4 ^pkgconf@1.8.0%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^readline@8.1%gcc@7.5.0 arch=linux-ubuntu18.04-x86_64_v4 ^zlib@1.2.11%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
         "specB": "zlib@1.2.3",
         "binaries": [
-            "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.50.3-7ayjnstib4z3jk76uj7k7n7zrn5r4u73/bin/curl"
+            "/opt/spack/opt/spack/linux-ubuntu18.04-x86_64_v4/gcc-7.5.0/curl-7.50.3-4mw2zrooezrkmy52pdlczb6fqb5ytbq6/bin/curl"
         ],
         "libs": [
             {
-                "dep": "zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                "dep": "zlib@1.2.3%gcc@7.5.0+optimize+pic+shared arch=linux-ubuntu18.04-x86_64_v4",
                 "paths": []
             }
         ],
