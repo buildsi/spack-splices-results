@@ -9,16 +9,16 @@ results:
     svg: actual-curl.svg
     pdf: actual-curl.pdf
     csv: actual-curl.csv
-  - tester: libabigail
-    png: libabigail-curl.png
-    svg: libabigail-curl.svg
-    pdf: libabigail-curl.pdf
-    csv: libabigail-curl.csv
   - tester: symbolator
     png: symbolator-curl.png
     svg: symbolator-curl.svg
     pdf: symbolator-curl.pdf
     csv: symbolator-curl.csv
+  - tester: libabigail
+    png: libabigail-curl.png
+    svg: libabigail-curl.svg
+    pdf: libabigail-curl.pdf
+    csv: libabigail-curl.csv
 
 maths: 1
 toc: 1
