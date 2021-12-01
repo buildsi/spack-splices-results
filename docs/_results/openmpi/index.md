@@ -9,16 +9,16 @@ results:
     svg: actual-openmpi.svg
     pdf: actual-openmpi.pdf
     csv: actual-openmpi.csv
-  - tester: symbolator
-    png: symbolator-openmpi.png
-    svg: symbolator-openmpi.svg
-    pdf: symbolator-openmpi.pdf
-    csv: symbolator-openmpi.csv
   - tester: libabigail
     png: libabigail-openmpi.png
     svg: libabigail-openmpi.svg
     pdf: libabigail-openmpi.pdf
     csv: libabigail-openmpi.csv
+  - tester: symbolator
+    png: symbolator-openmpi.png
+    svg: symbolator-openmpi.svg
+    pdf: symbolator-openmpi.pdf
+    csv: symbolator-openmpi.csv
 
 maths: 1
 toc: 1
