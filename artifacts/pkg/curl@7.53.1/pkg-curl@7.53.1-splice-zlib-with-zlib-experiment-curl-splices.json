@@ -1,0 +1,96 @@
+[
+    {
+        "binaries": {
+            "spliced": [],
+            "original": []
+        },
+        "predictions": {
+            "actual": []
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-haswell/gcc-9.3.0/zlib-1.2.11-7ux7ounf3nzwqohm3pnrj44md5sqcxzo/lib/libz.so.1.2.11"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-haswell/gcc-9.3.0/zlib-1.2.11-7ux7ounf3nzwqohm3pnrj44md5sqcxzo/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.11",
+        "package": "curl@7.53.1"
+    },
+    {
+        "binaries": {
+            "spliced": [],
+            "original": []
+        },
+        "predictions": {
+            "actual": []
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-haswell/gcc-9.3.0/zlib-1.2.8-x4na4gntgmxzj6uom2ps7twao7qd3lai/lib/libz.so.1.2.8"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-haswell/gcc-9.3.0/zlib-1.2.11-7ux7ounf3nzwqohm3pnrj44md5sqcxzo/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.8",
+        "package": "curl@7.53.1"
+    },
+    {
+        "binaries": {
+            "spliced": [],
+            "original": []
+        },
+        "predictions": {
+            "actual": []
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": []
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-haswell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-haswell/gcc-9.3.0/zlib-1.2.11-7ux7ounf3nzwqohm3pnrj44md5sqcxzo/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.3",
+        "package": "curl@7.53.1"
+    }
+]
