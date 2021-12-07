@@ -1,0 +1,215 @@
+[
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-rp53mic3ya66ghpqc6t3b37nt2kvkl6j/bin/sqlite3"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3"
+            ]
+        },
+        "predictions": {
+            "symbolator": [
+                {
+                    "missing": [],
+                    "selected": [
+                        [
+                            "libz.so.1.2.11",
+                            "libz.so.1"
+                        ],
+                        [
+                            "libc.so.6",
+                            "libc.so.6"
+                        ]
+                    ],
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-rp53mic3ya66ghpqc6t3b37nt2kvkl6j/bin/sqlite3",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11",
+                    "prediction": true
+                }
+            ],
+            "libabigail": [
+                {
+                    "message": "",
+                    "return_code": -4,
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-rp53mic3ya66ghpqc6t3b37nt2kvkl6j/bin/sqlite3",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11",
+                    "original_lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11",
+                    "prediction": false
+                }
+            ],
+            "actual": [
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-rp53mic3ya66ghpqc6t3b37nt2kvkl6j/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-rp53mic3ya66ghpqc6t3b37nt2kvkl6j/bin/sqlite3",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.11",
+        "package": "sqlite@3.29.0"
+    },
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-wvg56vznmc67gmnpbspi2bo6gskixwtw/bin/sqlite3"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3"
+            ]
+        },
+        "predictions": {
+            "symbolator": [
+                {
+                    "missing": [],
+                    "selected": [
+                        [
+                            "libz.so.1.2.8",
+                            "libz.so.1"
+                        ],
+                        [
+                            "libc.so.6",
+                            "libc.so.6"
+                        ]
+                    ],
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-wvg56vznmc67gmnpbspi2bo6gskixwtw/bin/sqlite3",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.8-qvcngjct4b7o66db5b4r6p7a3sauwfmk/lib/libz.so.1.2.8",
+                    "prediction": true
+                }
+            ],
+            "libabigail": [
+                {
+                    "message": "",
+                    "return_code": -4,
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-wvg56vznmc67gmnpbspi2bo6gskixwtw/bin/sqlite3",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.8-qvcngjct4b7o66db5b4r6p7a3sauwfmk/lib/libz.so.1.2.8",
+                    "original_lib": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.8-qvcngjct4b7o66db5b4r6p7a3sauwfmk/lib/libz.so.1.2.8",
+                    "prediction": false
+                }
+            ],
+            "actual": [
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-wvg56vznmc67gmnpbspi2bo6gskixwtw/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-wvg56vznmc67gmnpbspi2bo6gskixwtw/bin/sqlite3",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.8-qvcngjct4b7o66db5b4r6p7a3sauwfmk/lib/libz.so.1.2.8"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.8",
+        "package": "sqlite@3.29.0"
+    },
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-l44kjbpl7nb2mtiysqcu2canitoh6npo/bin/sqlite3"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3"
+            ]
+        },
+        "predictions": {
+            "actual": [
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-l44kjbpl7nb2mtiysqcu2canitoh6npo/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-l44kjbpl7nb2mtiysqcu2canitoh6npo/bin/sqlite3",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "3.29.0 2019-07-10 17:32:03 fc82b73eaac8b36950e527f12c4b5dc1e147e6f4ad2217ae43ad82882a88bfa6\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3 -version",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/sqlite-3.29.0-37aslsiksm64gycac4yusqlruptzcv4o/bin/sqlite3",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": []
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-broadwell/gcc-9.3.0/zlib-1.2.11-cvyc3qqfhojs42texnulwmarnnkyjdvc/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.3",
+        "package": "sqlite@3.29.0"
+    }
+]
