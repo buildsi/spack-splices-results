@@ -9,16 +9,16 @@ results:
     svg: actual-sqlite.svg
     pdf: actual-sqlite.pdf
     csv: actual-sqlite.csv
-  - tester: symbolator
-    png: symbolator-sqlite.png
-    svg: symbolator-sqlite.svg
-    pdf: symbolator-sqlite.pdf
-    csv: symbolator-sqlite.csv
   - tester: libabigail
     png: libabigail-sqlite.png
     svg: libabigail-sqlite.svg
     pdf: libabigail-sqlite.pdf
     csv: libabigail-sqlite.csv
+  - tester: symbolator
+    png: symbolator-sqlite.png
+    svg: symbolator-sqlite.svg
+    pdf: symbolator-sqlite.pdf
+    csv: symbolator-sqlite.csv
 
 maths: 1
 toc: 1
