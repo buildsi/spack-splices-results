@@ -16,21 +16,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Make artifact directory
-        run: mkdir -p ./artifacts
-      - name: Get Artifacts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          INPUT_REPOSITORY: "buildsi/spack-splices" 
-          INPUT_PACKAGE: ${{ github.event.inputs.package }}
-          INPUT_RUNID: ${{ github.event.inputs.runid }}
+      - name: Retrieve aritfacts
+        uses: buildsi/spliced/action/artifacts@main
+        with:
+          runid: ${{ github.event.inputs.runid}}
+          package: ${{ github.event.inputs.package }}
+          repository: buildsi/spack-splices
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Check for the last 2 days
-          INPUT_DAYS: 2
+      - name: Generate UI
+        uses: buildsi/spliced/action/ui@main
+      - name: Update Github Pages
         run: |
-          pip install -r requirements.txt
-          python get_artifacts.py
-          /bin/bash generate.sh
           printf "GitHub Actor: ${GITHUB_ACTOR}\n"
           
           git config --global user.name "github-actions"
@@ -42,4 +39,4 @@ jobs:
 
           git commit -a -m "Automated push with new artifact results $(date '+%Y-%m-%d')" || exit 0
           git push origin main || echo "No new results"
-  
+
