@@ -17,7 +17,6 @@ jobs:
         uses: buildsi/spliced/action/artifacts@main
         with:
           runid: ${{ github.event.inputs.runid}}
-          package: ${{ github.event.inputs.package }}
           repository: buildsi/spack-splices
           token: ${{ secrets.GITHUB_TOKEN }}
 
