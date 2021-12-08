@@ -3,9 +3,6 @@ name: "Manual Pull Result Artifacts"
 on:
   workflow_dispatch:
     inputs:
-      package:
-        description: 'Package result to process under artifacts'
-        required: true
       runid:
         description: 'Limit to an action run id (recommended)'
         required: false
