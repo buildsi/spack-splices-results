@@ -150,7 +150,9 @@ tr.group:hover {
          $.each(resultlist, function(i, result){
              result['tester'] = tester
 
-             result['binary'] = result['binary'].split(/[\\/]/).pop();
+             if (result['binary']) {
+                 result['binary'] = result['binary'].split(/[\\/]/).pop();        
+             }
              if (result['lib']) {
                  result['lib'] = result['lib'].split(/[\\/]/).pop();
              }
@@ -182,7 +184,7 @@ tr.group:hover {
 
         // Color tests by status (pass or fail)
         "rowCallback": function(row, data) {
-             if ( data.result == "splice-success" ) {
+             if (data.result == "splice-success" ) {
                   $('td:eq(1)', row).css('background-color', 'darkgreen').css('color', 'white');
              } else {             
                   $('td:eq(1)', row).css('background-color', 'crimson').css('color', 'white');
