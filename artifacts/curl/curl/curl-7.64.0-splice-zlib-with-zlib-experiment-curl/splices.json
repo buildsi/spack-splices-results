@@ -1,0 +1,215 @@
+[
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-t3lqdbu7shhymy3edu4w5ygnt4efbwvm/bin/curl"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl"
+            ]
+        },
+        "predictions": {
+            "symbolator": [
+                {
+                    "missing": [],
+                    "selected": [
+                        [
+                            "libz.so.1.2.11",
+                            "libz.so.1"
+                        ],
+                        [
+                            "libc.so.6",
+                            "libc.so.6"
+                        ]
+                    ],
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-t3lqdbu7shhymy3edu4w5ygnt4efbwvm/bin/curl",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11",
+                    "prediction": true
+                }
+            ],
+            "libabigail": [
+                {
+                    "message": "",
+                    "return_code": 0,
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-t3lqdbu7shhymy3edu4w5ygnt4efbwvm/bin/curl",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11",
+                    "original_lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11",
+                    "prediction": true
+                }
+            ],
+            "actual": [
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=db2Qm%2Fjw0%2Fxpp3kC1M3CrVlUCKwO3KR4Fi6Vaf0wBYCDBdOjfArOqVHxMNS%2FogCTrHvJ%2BGDbF%2BRuIdFWnlTRYNmF9r5J28Lm91OtvuxXG0usDHcJmQMUow5ipSn9sQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81c3ea45319-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-t3lqdbu7shhymy3edu4w5ygnt4efbwvm/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-t3lqdbu7shhymy3edu4w5ygnt4efbwvm/bin/curl",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hL83WvjXjoiwSNiSLilXzst9h%2F7317OyHUHpBNgXz%2B6cu8blXodCNPmqLq7dCHiq7DzEyrJKwBhH%2BbgN%2BfyADUjkegGnIBYjTvM47VkI%2FVfpO6yFrVpq93Ld1qqpvA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81c98827e76-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.11",
+        "package": "curl@7.64.0"
+    },
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-r5noicp2aon355fictpatjhcw62zf7bg/bin/curl"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl"
+            ]
+        },
+        "predictions": {
+            "symbolator": [
+                {
+                    "missing": [],
+                    "selected": [
+                        [
+                            "libz.so.1.2.8",
+                            "libz.so.1"
+                        ],
+                        [
+                            "libc.so.6",
+                            "libc.so.6"
+                        ]
+                    ],
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-r5noicp2aon355fictpatjhcw62zf7bg/bin/curl",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8",
+                    "prediction": true
+                }
+            ],
+            "libabigail": [
+                {
+                    "message": "",
+                    "return_code": 0,
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-r5noicp2aon355fictpatjhcw62zf7bg/bin/curl",
+                    "lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8",
+                    "original_lib": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8",
+                    "prediction": true
+                }
+            ],
+            "actual": [
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=9D9pXhHpIjFCQA3SDmPkbikprnx97WL8%2FLwWpRLyBaxNkjz2iu7ygsdTfx4lnWcx87Fei28Y9mzZ4hsn3%2Bq6BTsa%2Bqjy9a0zFCXXxj%2BcSQt3A7smBCqqA17xAmWVog%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81d1f107cf7-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-r5noicp2aon355fictpatjhcw62zf7bg/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-r5noicp2aon355fictpatjhcw62zf7bg/bin/curl",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=r%2Bqr3Xe0cxmYnNP62n2LW0vrPXWUa8U54gGzvwlaMn4BXD3Fy2TUupyTpIedfQmQ5FeB6eZpEhdWwkS5SkXaeHjWuZjh0aBkS%2BtfSEQn3Xwf7rbsNMMoeZsVGzoQ0Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81d7810527b-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.8%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.8-ptc5in5sjeqpsllo65hdkqnmpfsxmqrs/lib/libz.so.1.2.8"
+                    ]
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.8",
+        "package": "curl@7.64.0"
+    },
+    {
+        "binaries": {
+            "spliced": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-js7h5iiosh7cl4pmfeb3supe77scr3lo/bin/curl"
+            ],
+            "original": [
+                "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl"
+            ]
+        },
+        "predictions": {
+            "actual": [
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=gGL1sGU3N1ixXNejLCyV4tpPxjB%2Fig8SuoexET1k2HwvWPU1dAUin3K4CBhhg0Lbts5cuBfuv1mBakPXMdsMZGghYKQjeNRBE7KnnmZkltX74jo26JCfhcFlRt8mxQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81dda7e7c36-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-js7h5iiosh7cl4pmfeb3supe77scr3lo/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-js7h5iiosh7cl4pmfeb3supe77scr3lo/bin/curl",
+                    "binary_type": "spliced"
+                },
+                {
+                    "message": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\nHTTP/1.1 403 Forbidden\r\nDate: Wed, 08 Dec 2021 03:39:53 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nConnection: close\r\nCF-Chl-Bypass: 1\r\nPermissions-Policy: accelerometer=(),autoplay=(),camera=(),clipboard-read=(),clipboard-write=(),fullscreen=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()\r\nCache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nX-Frame-Options: SAMEORIGIN\r\nExpect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\nReport-To: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=3FGolknEFdp2Q1c3l0qDFMyN4BcN3NeDIh5i5ihFmtNZAO8cllkCI9bK4QxVvFh5k%2FdOf31MarONyR%2BMzR7fQ%2BonCOoD9OMjaaU8IbFpMyNEj3ZKvlNtzdvczexFrQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\nNEL: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\nStrict-Transport-Security: max-age=15552000; includeSubDomains; preload\r\nX-Content-Type-Options: nosniff\r\nServer: cloudflare\r\nCF-RAY: 6ba2f81e4fee7cf1-LAX\r\nalt-svc: h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400\r\n\r\n",
+                    "return_code": 0,
+                    "prediction": true,
+                    "command": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl --head https://linuxize.com/",
+                    "binary": "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/curl-7.64.0-a74xollv5hefaz3cxm5qvjey526dbakb/bin/curl",
+                    "binary_type": "original"
+                }
+            ]
+        },
+        "libs": {
+            "spliced": [
+                {
+                    "dep": "zlib@1.2.3%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": []
+                }
+            ],
+            "original": [
+                {
+                    "dep": "zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-x86_64_v4",
+                    "paths": [
+                        "/opt/spack/opt/spack/linux-ubuntu20.04-x86_64_v4/gcc-9.3.0/zlib-1.2.11-oxbegprx4yknw4ugbowjkqkxs3ez5xsf/lib/libz.so.1.2.11"
+                    ]
+                }
+            ]
+        },
+        "experiment": null,
+        "result": "splice-success",
+        "success": true,
+        "splice": "zlib@1.2.3",
+        "package": "curl@7.64.0"
+    }
+]

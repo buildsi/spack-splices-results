@@ -1,0 +1,14 @@
+[
+    {
+        "binaries": {},
+        "predictions": {
+            "actual": []
+        },
+        "libs": {},
+        "experiment": null,
+        "result": "package-install-failed",
+        "success": false,
+        "splice": "zlib",
+        "package": "curl@7.43.0"
+    }
+]
