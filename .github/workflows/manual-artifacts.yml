@@ -30,6 +30,7 @@ jobs:
           git config --global user.email "github-actions@users.noreply.github.com"
           git fetch
           git checkout main
+          git pull origin main
           git add artifacts/*
           git add docs/_results*
 
