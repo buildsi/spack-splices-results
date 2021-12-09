@@ -1,0 +1,14 @@
+[
+    {
+        "binaries": {},
+        "predictions": {
+            "actual": []
+        },
+        "libs": {},
+        "experiment": "openmpi_mpich",
+        "result": "splice-failed",
+        "success": false,
+        "splice": "mpich@3.4.2",
+        "package": "hdf5@1.8.10"
+    }
+]
