@@ -7,7 +7,7 @@ png: hdf5-openmpi_mpich.png
 svg: hdf5-openmpi_mpich.svg
 pdf: hdf5-openmpi_mpich.pdf
 results: results-list.json
-outcomes: {'splice-failed': 1}
+outcomes: {'mock-splice-success': 1}
 
 maths: 1
 toc: 1
