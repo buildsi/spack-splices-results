@@ -7,7 +7,7 @@ png: curl-curl.png
 svg: curl-curl.svg
 pdf: curl-curl.pdf
 results: results-list.json
-outcomes: {'package-install-failed': 1, 'splice-success': 2}
+outcomes: {'splice-success': 1, 'package-install-failed': 2}
 
 maths: 1
 toc: 1
